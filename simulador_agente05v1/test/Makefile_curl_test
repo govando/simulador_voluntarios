@@ -1,0 +1,27 @@
+CXX=g++
+LIBRARY=-L/usr/local/lib
+INCLUDE=-I/usr/local/include/nlohmann
+CXXFLAGS=-Wall -g -std=c++11 -O3 -lcurl -ggdb -lm $(INCLUDE) -g $(LIBRARY)
+
+
+OBJS=../obj/curl_test.o ../obj/comm.o
+TARGET=sim
+
+$(TARGET): $(OBJS) 
+	        $(CXX) -o $@ $^ $(CXXFLAGS) 
+
+../obj/curl_test.o:curl_test.cc
+../obj/comm.o:../src/comm.cc ../include/comm.h
+
+../obj/%.o:
+	$(CXX) -o $@ -c $< $(CXXFLAGS) 
+clean:
+	${RM} $(TARGET)
+	${RM} obj/*.o
+	${RM} *~
+
+all:
+	make clean
+	make
+
+			

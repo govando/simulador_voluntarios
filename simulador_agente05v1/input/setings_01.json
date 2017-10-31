@@ -1,0 +1,107 @@
+{
+	"host":"http://localhost",
+	"port":"3001",
+	"nbr_administrators":2,
+	"nbr_coordinators":1,
+	"nbr_volunteers":1000,
+	"nbr_emergencies":1,
+	"nbr_missions":4,
+	"nbr_volunteersByMission":20,
+	"nbr_threads": 300,
+	"nbr_triesOfRequest":20,
+	"nbr_nsSleepByFailedTryRequest":100,
+	"nbr_simcicles":10,
+	"user_template" : {
+        "first_name": "user",
+        "last_name":"name",
+        "birthday":"1990-04-10T08:00:00-04:00",
+        "password":"12345",
+        "email":"user@usach.cl",
+        "contact_phone_number":123456789,
+        "emergency_phone_number":986754321,
+        "life_insurance":true,
+        "user_type_id":1,
+        "enabled": true
+	},
+	"volunteer_template" : {
+		"volunteer_status_id": 1,
+    	"user_id": 1,
+    	"token":"",
+    	"Abilities": []
+	},
+	"emergency_template" : {
+	    "title": "Explosión Santiago",
+	    "place_latitude": 1,
+	    "place_longitude": 1,
+	    "place_radius": 1,
+	    "description": "Emergency test descripcion",
+	    "commune": "Santiago Centro",
+	    "city": "Santiago",
+	    "region": "Region Metropolitana",
+	    "emergency_type_id": 1,
+	    "emergency_status_id": 1,
+	    "user_id": 1
+	},
+	"mission_template" : {
+	    "meeting_point_latitude": 1,
+	    "meeting_point_longitude": 1,
+	    "title": "Mission 85",
+	    "description": "Descripcion de mission 85",
+	    "meeting_point_address": "Calle 1 ",
+	    "start_date": "2016-12-05T00:00:00Z",
+	    "finish_date": "2017-03-03T00:00:00Z",
+	    "scheduled_start_date": "2016-12-05T00:00:00Z",
+	    "scheduled_finish_date": "2017-03-03T00:00:00Z",
+	    "emergency_id": 1,
+	    "mission_status_id": 3,
+	    "user_id": 2,
+	    "Abilities":[]
+	},
+	"history_mission_template":{
+		"Mission_id":1,
+		"Volunteer_id" :1,
+		"History_mission_state_id": 1
+	}
+}
+
+
+
+{
+	"host":"http://localhost",
+	"port":"3001",
+	"nbr_administrators":3,
+	"nbr_coordinators":1,
+	"nbr_volunteers":400,
+	"nbr_emergencies":1,
+	"nbr_missions":4,
+	"nbr_volunteersByMission":100,
+	"nbr_threads":300,
+	"nbr_triesOfRequest":20,
+	"nbr_nsSleepByFailedTryRequest":100,
+	"nbr_simcicles":1,
+	"millisEventAdm":{ 	
+		"create_emergency":{"min":40000,"max":60000},
+		"create_mission":{"min":40000,"max":70000},
+		"load_form_emergency":{"min":400,"max":700},
+		"insert_data_form_emergency":{"min":40000,"max":60000},		
+		"load_form_mission":{"min":500,"max":800},
+		"select_emergency_to_create_mission":{"min":60000,"max":80000},	
+		"insert_data_form_mission":{"min":60000,"max":80000}	
+	},
+	"millisEventVol":{
+		"insert_data_login":{"min":20000,"max": 60000},
+		"push_logout":{"min":200,"max": 400},
+		"review_missions_invitations":{"min":4000,"max": 30000},
+		"select_mission_invitation":{"min":5000,"max": 10000},
+		"acept_mission_invitation":{"min":3000,"max": 4000},
+		"reject_mission_invitation":{"min":3000,"max": 4000},
+		"review_missions_actives":{"min":10000,"max": 30000},
+		"select_mission_active":{"min":20000,"max": 60000},
+		"begin_mission_acepted":{"min":10000,"max": 30000},
+		"finalize_mission_acepted":{"min":8000,"max": 10000},				
+		"turn_on_device":{"min":1000,"max": 4000},
+		"turn_off_device":{"min":1000,"max": 4000},
+		"do_nothing_only_move":{"min":5000,"max": 10000},
+		"look_invitation_received":{"min":1000,"max": 4000}
+	}	
+}

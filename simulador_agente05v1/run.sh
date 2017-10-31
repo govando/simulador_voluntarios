@@ -1,0 +1,1 @@
+./simulador -s input/setings.json -e input/emergencies.json -m input/missions.json -p input/places.json

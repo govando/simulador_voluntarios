@@ -1,0 +1,40 @@
+{
+	"host":"http://localhost",
+	"port":"3001",
+	"nbr_administrators":3,
+	"nbr_coordinators":1,
+	"nbr_volunteers":1000,
+	"nbr_emergencies":1,
+	"nbr_missions":4,
+	"nbr_volunteersByMission":100,
+	"nbr_threads":200,
+	"nbr_triesOfRequest":20,
+	"nbr_nsSleepByFailedTryRequest":100,
+	"nbr_simcicles":1,
+	"millis_simulation_time":600000,
+	"millisEventAdm":{
+		"create_emergency":{"min":400,"max":600},
+		"create_mission":{"min":400,"max":700},
+		"load_form_emergency":{"min":400,"max":700},
+		"insert_data_form_emergency":{"min":400,"max":6000},		
+		"load_form_mission":{"min":500,"max":800},
+		"select_emergency_to_create_mission":{"min":600,"max":800},	
+		"insert_data_form_mission":{"min":600,"max":800}	
+	},
+	"millisEventVol":{
+		"insert_data_login":{"min":2000,"max": 3000},
+		"push_logout":{"min":200,"max": 400},
+		"review_missions_invitations":{"min":400,"max": 1000},
+		"select_mission_invitation":{"min":500,"max": 1000},
+		"acept_mission_invitation":{"min":300,"max": 400},
+		"reject_mission_invitation":{"min":300,"max": 1000},
+		"review_missions_actives":{"min":1000,"max": 3000},
+		"select_mission_active":{"min":200,"max": 600},
+		"begin_mission_acepted":{"min":100,"max": 300},
+		"finalize_mission_acepted":{"min":800,"max": 1000},				
+		"turn_on_device":{"min":100,"max": 400},
+		"turn_off_device":{"min":100,"max": 400},
+		"do_nothing_only_move":{"min":1000,"max": 2000},
+		"look_invitation_notification":{"min":100,"max": 400}
+	}	
+}

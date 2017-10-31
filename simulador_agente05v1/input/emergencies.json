@@ -1,0 +1,8 @@
+{
+	"emergencies" :[
+		{"title": "GRAN TERREMOTO","description":"SUPER TERREMOTO DESTRUYE EDIFICIOS" , "type":1},
+		{"title": "GRAN INUNDACION","description":"SUPER INUNDACION SE LLEVA CASAS" , "type":2},
+		{"title": "GRAN INCENDIO","description":"ENORME INUNDACION ARRASA CON BOSQUES" , "type":3},
+		{"title": "GRAN ALUVION","description":"ENORME ALUVION POR DESHIELOS" , "type":4}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"places" : [
+		{"commune":"Iquique","city":"Iquique","region":"Tarapaca","place_latitude":-70.73955718624688,"place_longitude":-33.46296330780848, "place_radius": 100},
+		{"commune":"Alto Hospicio","city":"Iquique","region":"Tarapaca","place_latitude":-70.73955718624688,"place_longitude":-33.46296330780848, "place_radius": 100},
+		{"commune":"Pozo Almonte","city":"Tamarugal","region":"Tarapaca","place_latitude":-70.73955718624688,"place_longitude":-33.46296330780848, "place_radius": 100},
+		{"commune":"Camiña","city":"Tamarugal","region":"Tarapaca","place_latitude":-70.73955718624688,"place_longitude":-33.46296330780848, "place_radius": 100},
+		{"commune":"General Lagos","city":"Parinacota","region":"Arica y Parinacota","place_latitude":-70.73955718624688,"place_longitude":-33.46296330780848, "place_radius": 100}
+	]
+}
+

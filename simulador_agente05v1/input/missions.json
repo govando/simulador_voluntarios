@@ -1,0 +1,35 @@
+{
+	"missions" : [
+		{ "emergencytype":1, "missionsbytype" : [
+				{"title":"RECONSTRUCCION DE COLEGIOS", "description":"REPARAR COLEGIOS EN PELIGRO" },
+				{ "title":"BUSCAR PERSONAS PERDIDAS", "description":"BUSQUEDA DE PERSONAS PERDIDAS ENTRE LOS ESCOMBROS" },
+				{ "title":"CURAR HERIDOS", "description":"CURAR A LOS HERIDOS PRODUCTO DEL TERREMOTO" },
+				{ "title":"REUNIR MEDICAMENTOS", "description":"BUSQUEDA Y RECOLECCION DE MEDICAMENTOS" },
+				{ "title":"ESTABLECER ZONAS SEGURAS", "description":"BUSCAR ZONAS SEGURAS Y COMUNICARLO AL COMANDO CENTRAL" },
+				{ "title":"RECONSTRUCCION PLAZAS", "description":"LIMPIEZA Y RECONSTRUCCION DE PLAZAS PUBLICAS" }
+			]
+		},
+		{ "emergencytype":2, "missionsbytype" : [
+				{"title":"RESCATE DE MASCOTAS", "description":"BUSQUEDA Y RESCATE DE MASCOTAS PERDIDAD" },
+				{"title":"RESCATE DE PERSONAS", "description":"BUSQUEDA Y RESCATE DE PERSONAS PERDIDAD" },
+				{"title":"LIMPIEZA DE CALLES Y PLAZAS", "description":"LIMPIAR CALLES Y PLAZAS DE ESCOMBROS" },	
+				{"title":"LIMPIEZA DE CASAS", "description":"EQUIPOS LIMPIARAN CASAS DE ESCOMBROS" }											
+			]
+		},
+		{ "emergencytype":3, "missionsbytype" : [
+				{"title":"RESCATE DE MASCOTAS", "description":"BUSQUEDA Y RESCATE DE MASCOTAS PERDIDAD" },
+				{"title":"RESCATE DE PERSONAS", "description":"BUSQUEDA Y RESCATE DE PERSONAS PERDIDAD" },
+				{"title":"APARGAR FOCOS", "description":"APAGAR FOCOS DE INCENDIOS CERCANOS A CASAS" },	
+				{"title":"HACER SURCOS PARA FUEGO", "description":"HACER SURCOS PARA DIRIGIR EL FUEGO A LUGARES NO POBLADOS" }											
+			]
+		},
+		{ "emergencytype":4, "missionsbytype" : [
+				{"title":"RESCATE DE MASCOTAS", "description":"BUSQUEDA Y RESCATE DE MASCOTAS PERDIDAD" },
+				{"title":"RESCATE DE PERSONAS", "description":"BUSQUEDA Y RESCATE DE PERSONAS PERDIDAD" },
+				{"title":"LIMPIEZA DE CASAS", "description":"EQUIPOS LIMPIARAN CASAS DE ESCOMBROS" },
+				{"title":"CORREGIR BORDE DEL RIO", "description":"REALIZAR RELLENOS DONDE SE SALIO EL RIO" },
+				{"title":"REALIZAR DESHIELOS CONTROLADOS", "description":"REALIZAR DESHIELOS CONTROLADOS PARA EVITAR GRANDES DESHIELOS INESPERADOS" }
+			]
+		}
+	]
+}
